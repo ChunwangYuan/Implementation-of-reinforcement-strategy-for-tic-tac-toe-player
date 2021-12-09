@@ -8,7 +8,7 @@ Tic-Tac-Toe is a paper-and-pencil game for two players who take turns marking th
 
 In this project, we have trained a agent who will learn how to play Tic-Tac-Toe with reinforcement learning. Then, the agent competed against with other player or with itself. Main implementation of this project was to train the agent to learn the strategy to find the best available move and beat other Agent. Comparing the algorithms we have learned in class,especially for any finite Markov decision process (FMDP), Q-learning is a model-free reinforcement learning algorithm to learn the value of an action in a particular state and can find an optimal policy in the sense of maximizing the expected value of the total reward over any and all successive steps, starting from the current state. Thus, we chosen Q-Learning algorithm to train the agent.  
 
-![image](Tic-Tac-Toe.png)
+![tic-tac-toe](Tic-Tac-Toe.png)
 
 ### Overview
 * Used two strategies: (RANDOM and Q-LEARNING) 
@@ -29,10 +29,19 @@ In this project, we have trained a agent who will learn how to play Tic-Tac-Toe 
 * This approach helps us in making the game fair.
 
 ### Q-LEARNING
-* We need to store all of the states our agent experiences during its lifetime in order for the Q-Learning algorithm to work. 
-* This allows our agent to remember which action is performed in each state, so that the next time he experiences the same state, it will perform the same action. This is our agent's memory
-* State field is a map with the key being a hash of our board (a unique string formed from the board configuration) and the value being the Q-value of that board configuration, which is the value calculated using the Bellman equation.
-* The states history field is the final field in our class, and it contains the hashes of all the board configurations encountered by the player in the last game.
-* After the game is over, the model will retrace the steps in the history and generate new q-values for the next game. 
-* Another very important method is the reward method which is named at the end of each game. 
-* This will take the positive or negative reward (depending on the game winner) and change the Q values for the board configuration we saw in the previous game using the Bellman equation.
+* Observation of the environment
+* Deciding how to act using some strategy
+* Acting accordingly
+* Receiving a reward or penalty
+* Learning from the experiences and refining our strategy
+* Iterate until an optimal strategy is found
+![Q-learning](Q-LEARNING-Algorithm.png)
+
+## Running code
+Instructions on how to run the project:
+**Step 1:** Download the zip file or clone the repository.
+**Step 2:** cd to the directory where your downloaded folder is located.
+**Step 3:** open the project folder in spyder
+**Step 4:** open main.py and run
+
+## Results

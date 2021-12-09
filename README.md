@@ -55,5 +55,6 @@ Q was losing when test for 10 games but as games increased to 1000 q learning wa
 ==================== <br>
 ![results](RESULTS.png)
 
+Youtube video link: https://youtu.be/zqlZSSh49i0
 
 

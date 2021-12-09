@@ -23,12 +23,12 @@ In this project, we have trained a agent who will learn how to play Tic-Tac-Toe 
 * Matplotlib
 
 ## Strategies
-### RANDOM 
+#### RANDOM 
 * Random strategy selects randomly from available moves and play. 
 * This is a very general approach when initiating the game but may give tough time to opponent sometime.
 * This approach helps us in making the game fair.
 
-### Q-LEARNING
+#### Q-LEARNING
 * Observation of the environment
 * Deciding how to act using some strategy
 * Acting accordingly
@@ -45,3 +45,15 @@ Instructions on how to run the project:
 * **Step 4:** open main.py and run
 
 ## Results
+#### After 5000 games:
+Q –learning defeated Random strategy and had higher edge on all games
+#### Q vs Q 
+Initiated differently but as soon as they number of games increase, they both had equal wins, loss and draw.
+#### Q vs R and  R vs Q
+Q was losing when test for 10 games but as games increased to 1000 q learning was on higher side.
+
+==================== <br>
+![results](RESULTS.png)
+
+
+

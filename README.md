@@ -39,9 +39,9 @@ In this project, we have trained a agent who will learn how to play Tic-Tac-Toe 
 
 ## Running code
 Instructions on how to run the project:
-**Step 1:** Download the zip file or clone the repository.
-**Step 2:** cd to the directory where your downloaded folder is located.
-**Step 3:** open the project folder in spyder
-**Step 4:** open main.py and run
+* **Step 1:** Download the zip file or clone the repository.
+* **Step 2:** cd to the directory where your downloaded folder is located.
+* **Step 3:** open the project folder in spyder
+* **Step 4:** open main.py and run
 
 ## Results
